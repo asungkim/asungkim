@@ -42,8 +42,6 @@
 ### 📡 Communication
 ![REST API](https://img.shields.io/badge/REST_API-6DB33F?style=flat)
 ![SSE](https://img.shields.io/badge/Server_Sent_Events-FF9900?style=flat)
-![OpenAPI](https://img.shields.io/badge/OpenAPI-6BA539?style=flat)
-
 
 ## 📂 Main Projects
 
