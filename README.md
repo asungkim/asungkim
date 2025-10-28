@@ -49,14 +49,3 @@
 공연 예매 시 발생하는 동시 접속 문제를 해결하기 위해 Redis 기반의 대기열 시스템과 실시간 좌석 예약 기능을 구현했습니다. 결제 연동, 예매 로그 추적, 모니터링 시스템까지 포함된 실전형 서비스입니다.  
 **Tech:** Spring Boot, Redis, MySQL, Docker, GitHub Actions, Prometheus, Grafana, SSE  
 🔗 [GitHub 바로가기](https://github.com/asungkim/PickGO_Ticket)
-
-### 🏸 Tennis Court Booking (진행 중)  
-사립 및 공공 테니스장을 통합하여 예약할 수 있는 플랫폼을 개발 중입니다. 운영자가 테니스장을 등록하면, 사용자는 필터 기반으로 빈 시간대를 검색하고 예약할 수 있습니다. 추후 공공 API, 크롤링, 알림 기능(이메일/문자)까지 확장 예정입니다.  
-**Core Features:** 테니스장/코트 등록, 예약/시간대 관리, 고도화된 검색 필터, 예약 알림 시스템  
-🔗 [GitHub 바로가기](https://github.com/asungkim/TennisReserve_250324)
-
-## 🎯 Roadmap & Goals
-
-- `PickGO`의 대기열 시스템을 직접 Redis Stream 기반으로 재구성 예정
-- 테니스 예약 시스템 완성 → 서울/경기 공공 코트 정보 통합 목표
-- 대기열 처리, 알림 기능, 로그 시각화를 포함한 **운영 가능한 서비스** 구축 경험 확장
